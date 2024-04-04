@@ -1,0 +1,8 @@
+{
+    "name": "galaxy-fantastic",
+    "version": "1.0.1",
+    "description": "A modern dark theme for phpMyAdmin",
+    "author": "Ernesto Jaboneta",
+    "url": "https://ernestojaboneta.com",
+    "supports": ["5.1", "5.2"]
+}
