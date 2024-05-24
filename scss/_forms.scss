@@ -1,7 +1,7 @@
 .input-group-text {
 	color: $Color-Text-Main;
-	background-color: $Color-Body-Light;
-	border: 1px solid #686881;
+	background-color: $Color-Body-Special;
+	border: none;
 }
 
 .form-control,
@@ -28,7 +28,7 @@ input[type="url"],
 input[type="week"] {
 	padding: 5px 10px;
 	display: inline-block;
-	background-color: $Color-Body-Light;
+	background-color: $Color-Body-Special;
 	border: none;
 	color: $Color-Text-Main;
 	border-radius: 10px;
@@ -45,6 +45,17 @@ input[type="week"] {
 	&:focus {
 		box-shadow: unset;
 	}
+}
+
+input[type="file"]::file-selector-button {
+	color: white;
+	background-color: $Color-Violet;
+	border-right: 0;
+}
+
+input[type="file"]::file-selector-button:hover {
+	background-color: $Color-Violet-800 !important;
+	color: black
 }
 
 .form-select,
