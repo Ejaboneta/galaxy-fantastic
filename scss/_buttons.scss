@@ -54,7 +54,7 @@ button,
 	// font-size: 15px;
 	text-align: center;
 	line-height: normal;
-	padding: 5px 10px;
+	padding: 8px 10px;
 	max-width: 100%;
 	background: $Color-Violet;
 	color: $Color-White;
@@ -67,7 +67,8 @@ button,
 	outline: 0;
 	transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
 	vertical-align: middle;
-	margin: 6px;
+	margin: 3px 0 0 0;
+
 
 
 	&:disabled {
@@ -79,7 +80,6 @@ button,
 	&:hover {
 		background: $Color-Violet;
 		color: $Color-White;
-		border: 1px solid $Color-Violet;
 		box-shadow: inset 0 0 10vw 10vw rgb(255 255 255 / 20%);
 	}
 	&:not(:disabled):not(.disabled):focus,
