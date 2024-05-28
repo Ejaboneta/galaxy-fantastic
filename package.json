@@ -23,7 +23,7 @@
 		"scss-watch-direct-jq": "sass --watch --style=compressed scss\\jquery-ui.scss:F:\\xampp\\phpMyAdmin\\themes\\galaxy-fantastic\\jquery\\jquery-ui.css"
 	},
 	"dependencies": {
-		"bootstrap": "^5.2.2",
-		"sass": "^1.72.0"
+		"bootstrap": "^5.3.3",
+		"sass": "^1.77.2"
 	}
 }
