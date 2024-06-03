@@ -7,7 +7,9 @@
 	> :not(caption) > * > * {
 		background-color: unset;
 		box-shadow: unset;
+		color: $Color-Violet-300;
 	}
+	
 
 	th,
 	td {

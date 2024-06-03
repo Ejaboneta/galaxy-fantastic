@@ -238,7 +238,8 @@ input {
 }
 
 select[disabled] {
-	background: #e8e8e8;
+	color: $Color-Violet-500;
+	background: $Color-Violet-500;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -260,19 +261,19 @@ input[type="date"] {
 		&:hover {
 			// border: 1px solid #7c7c7c;
 			// background: #fff;
-			background: $Color-Body-Light;
+			background: $Color-Body-Special2;
 			border: none;
 			color: $Color-Text-Main;
 			box-shadow: inset 0 0 10vw 10vw rgb(255 255 255 / 6%);
 		}
 		&:active {
-			background: $Color-Body-Light;
+			background: $Color-Body-Special;
 			border: none;
 			color: $Color-Text-Main;
 			box-shadow: inset 0 0 10vw 10vw rgb(255 255 255 / 10%);
 		}
 		&:focus {
-			background: $Color-Body-Light;
+			background: $Color-Body-Special2;
 			border: none;
 			color: $Color-Text-Main;
 			box-shadow: inset 0 0 10vw 10vw rgb(255 255 255 / 12%);
@@ -829,7 +830,7 @@ div.tools a:hover,
 
 // disabled text
 .disabled {
-	color: #666;
+	color: violet;
 
 	a {
 		&:link,

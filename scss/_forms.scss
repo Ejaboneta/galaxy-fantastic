@@ -105,5 +105,11 @@ textarea#sqlquery {
 .form-check-input:checked[type=radio],
 .form-check-input:checked[type=checkbox] {
 	background-color: $Color-Violet;
-	border: 1px solid $Color-Violet-300;
+	border: 1px solid $Color-Violet-200;
+}
+
+
+select[disabled] {
+	background: $Color-Body-Special;
+	color: $Color-Body-Special2;
 }
