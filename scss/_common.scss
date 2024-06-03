@@ -531,6 +531,9 @@ fieldset.tblFooters {
 	margin-top: 0;
 	margin-bottom: 0.5em;
 	// avoid a thick line since this should be used under another fieldset
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px; 
 	border-top: 0;
 	text-align: $direction-end;
 	float: none;
