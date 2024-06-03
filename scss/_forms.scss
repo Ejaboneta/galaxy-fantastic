@@ -95,3 +95,15 @@ textarea#sqlquery {
 .insertRowTable textarea {
 	height: 3rem;
 }
+.form-check-input[type=radio],
+.form-check-input[type=checkbox] {
+	background-color: $Color-Body-Special2;
+	border: 1px solid $Color-Body-Special;
+	--bs-form-check-bg-image: none;
+}
+
+.form-check-input:checked[type=radio],
+.form-check-input:checked[type=checkbox] {
+	background-color: $Color-Violet;
+	border: 1px solid $Color-Violet-300;
+}
