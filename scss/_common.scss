@@ -1703,7 +1703,6 @@ select.invalid_value,
 	// background-size: contain;
 	background-position: 5%;
 	// border: 1px solid #e2b709;
-	background-color: $Color-Azure;
 	color: $Color-Text-Main;
 	border-radius: 13px;
 	// -moz-border-radius: 5px;
@@ -2906,6 +2905,7 @@ table.show_create {
 	bottom: 0;
 	#{$direction-start}: 0;
 	z-index: 100;
+	opacity: 0.8;
 }
 
 textarea {
